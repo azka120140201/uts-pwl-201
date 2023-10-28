@@ -1,0 +1,171 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .product-list-item {
+    display: flex;
+    flex-direction: row; /* Mengubah arah dari vertikal ke horizontal */
+    justify-content: space-between; /* Menyusun elemen secara horizontal */
+    align-items: center;
+    margin: 10px 0; /* Tambahkan margin di atas dan bawah setiap barang */
+    padding: 10px; /* Tambahkan padding untuk memberikan ruang di sekitar setiap barang */
+  }
+  
+  .product-list-item input {
+    width: 25%; /* Lebar input Jumlah Produk */
+  }
+  
+  .product-form {
+    margin-bottom: 40px;
+  }
+  
+  .product-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .product-form input[type="number"] {
+    width: 50%;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .shopping-cart {
+    margin-bottom: 40px;
+  }
+  
+  .shopping-cart-item {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .button-save {
+    background-color: #28a745; /* Warna untuk tombol Simpan */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .button-save:hover {
+    background-color: #218838; /* Warna saat dihover */
+  }
+  
+  .button-buy {
+    background-color: #007bff; /* Warna untuk tombol Beli */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .button-buy:hover {
+    background-color: #0056b3; /* Warna saat dihover */
+  }
+  
+  .button-delete {
+    background-color: #dc3545; /* Warna untuk tombol Hapus */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .button-delete:hover {
+    background-color: #c82333; /* Warna saat dihover */
+  }
+  
+  .button-edit {
+    background-color: #ffc107; /* Warna untuk tombol Edit */
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .button-edit:hover {
+    background-color: #e0a800; /* Warna saat dihover */
+  }
+  
+  .button-delete-cart {
+    background-color: #dc3545; /* Warna untuk tombol Hapus di keranjang belanja */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .button-delete-cart:hover {
+    background-color: #c82333; /* Warna saat dihover tombol Hapus di keranjang belanja */
+  }
+  
+  .button-checkout {
+    background-color: #ff5722; /* Warna untuk tombol Checkout */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .button-checkout:hover {
+    background-color: #ff7043; /* Warna saat dihover */
+  }
+  
